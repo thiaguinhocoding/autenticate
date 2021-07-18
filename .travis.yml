@@ -4,4 +4,4 @@ node_js:
 before_script:
   - yarn install
 script:
-  - yarn test
+  - yarn test:all

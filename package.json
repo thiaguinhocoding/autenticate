@@ -12,6 +12,7 @@
     "style:check": "prettier --check ./src",
     "style:fix": "prettier --write ./src",
     "test:full": "yarn test:unit && yarn test:functional",
+    "test:all": "jest",
     "test:unit": "jest",
     "test:functional": "jest --projects ./tests",
     "test:coverage": "jest --coverage"
